@@ -1,0 +1,7 @@
+name: Install .NET Tool - MinVer
+description: Install the latest version of MinVer CLI using dotnet tool.
+runs:
+  using: composite
+  steps:
+  - run: dotnet tool update --global minver-cli
+    shell: bash
