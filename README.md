@@ -1,4 +1,4 @@
-# Install MinVer
+# Install .NET Tool - MinVer
 
 Install the latest version of [MinVer CLI](https://www.nuget.org/packages/minver-cli) using `dotnet tool`.
 
@@ -39,7 +39,7 @@ steps:
     uses: codebeltnet/dotnet-tool-install-minver@main
 ```
 
-## Contributing to Install MinVer
+## Contributing to Install .NET Tool - MinVer
 
 Contributions are welcome! 
 Feel free to submit issues, feature requests, or pull requests to help improve this action.
