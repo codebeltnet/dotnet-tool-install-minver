@@ -2,7 +2,16 @@
 
 Install the latest version of [MinVer CLI](https://www.nuget.org/packages/minver-cli) using `dotnet tool`.
 
-This ensures a smooth and consistent way to setup your CI/CD pipeline as well as structuring your repository.
+> This action is part of the Codebelt ecosystem and ensures a consistent way of: 
+> 
+> - Defining your CI/CD pipeline 
+> - Structuring your repository
+> - Keeping your codebase small and feasible
+> - Writing clean and maintainable code
+> - Deploying your code to different environments
+> - Automating as much as possible
+>
+> A paved path to excel as a DevSecOps Engineer.
 
 ## Usage
 
