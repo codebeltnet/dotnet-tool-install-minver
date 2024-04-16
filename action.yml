@@ -5,3 +5,6 @@ runs:
   steps:
   - run: dotnet tool update --global minver-cli
     shell: bash
+branding:
+  icon: 'umbrella'
+  color: 'blue'
