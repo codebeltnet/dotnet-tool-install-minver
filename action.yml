@@ -1,9 +1,14 @@
 name: Install .NET Tool - MinVer
 description: Install the latest version of MinVer CLI using dotnet tool.
+inputs:
+  version:
+    description: The version of MinVer to install.
+    required: false
+    default: 5.0.0
 runs:
   using: composite
   steps:
-  - run: dotnet tool update --global minver-cli
+  - run: dotnet tool update --global minver-cli --version ${{ inputs.version }}
     shell: bash
 branding:
   icon: 'umbrella'

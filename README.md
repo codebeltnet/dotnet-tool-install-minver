@@ -23,7 +23,11 @@ uses: codebeltnet/dotnet-tool-install-minver@v1
 
 ### Inputs
 
-This action has no inputs.
+```yaml
+with:
+  # The version of MinVer to install.
+  version: 5.0.0
+```
 
 ### Outputs
 
