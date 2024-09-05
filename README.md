@@ -26,7 +26,7 @@ uses: codebeltnet/dotnet-tool-install-minver@v1
 ```yaml
 with:
   # The version of MinVer to install.
-  version: 5.0.0
+  version: 6.0.0
 ```
 
 ### Outputs
