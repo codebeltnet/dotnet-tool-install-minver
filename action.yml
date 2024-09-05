@@ -4,7 +4,7 @@ inputs:
   version:
     description: The version of MinVer to install.
     required: false
-    default: 5.0.0
+    default: 6.0.0
 runs:
   using: composite
   steps:
